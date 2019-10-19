@@ -1,7 +1,7 @@
-## Быстрый запуск (из архива)
+﻿## Быстрый запуск (из архива)
 
-sudo . eyeglasses.sh
-cd (назад к папке с glasses recognition)
+sudo . eyeglasses.sh  
+cd (назад к папке с glasses recognition)  
 python run.py --input='result_test'
 
 ## Полная установка (создание датасета, обучение, инференс)
@@ -21,13 +21,13 @@ unzip MeGlass_120x120.zip
 
 ### Запуск
 
-prepare_data.py - подготовка датасета
-train_model.py - обучение модели
+prepare_data.py - подготовка датасета  
+train_model.py - обучение модели  
 run.py - инференс
 
 '''
-python prepare_data.py
-python train_model.py
+python prepare_data.py  
+python train_model.py  
 python run.py --input='result_test'
 '''
 
@@ -49,13 +49,13 @@ python run.py --input='result_test'
    Recall(glasses) = 0.9. 
 
 ### Основные зависимости
-torch - 1.3.0
+torch - 1.3.0  
 numpy - 1.16.1
-torchvision - 0.4.1
-sklearn - 0.20.2
-argparse - 1.1
+  torchvision - 0.4.1  
+sklearn - 0.20.2  
+argparse - 1.1  
 pandas - 0.25.1
 
 
 
-"# glasses_recognition" 
+  
